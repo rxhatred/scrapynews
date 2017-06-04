@@ -13,7 +13,7 @@ class NewsspiderSpider(scrapy.Spider):
     allowed_domains = ["theguardian.com"]
     
     start_urls = [
-        "https://www.theguardian.com/world/americas",    
+        "https://www.theguardian.com/au",    
     ]
     
     def parse(self,response):
